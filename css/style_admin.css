@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* all navbar color */
+.navbar-background {
+  background: radial-gradient(#f2e2ce, #ffffff);
+  color: #2e2e2e;
+  font-weight: 650;
+}
+
+/* breadcrumb */
+.text-breadcrumb {
+  color: #151515;
+}
+
+.text-breadcrumb:hover {
+  color: #F2B872;
+}
+
+/* index.php */
+.summary-box {
+  transform-style: preserve-3d;
+  transition: all 0.3s ease;
+  border-radius: 7px;
+}
+
+.summary-box:hover {
+  transform: translateZ(20px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.summary-box .card-body {
+  background: #f2b872;
+  border: 1px solid #2e2e2e;
+  border-radius: 7px;
+}
+
+.summary-box .card-body h3 {
+  color: #2e2e2e;
+}
+
+/* produk */
+.gambar-kucing {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.floating-alert {
+  position: fixed;
+  width: 50%;
+  z-index: 9999;
+}
+
+.text-price {
+  color: orangered;
+}
+
+/* akun */
+.img-account {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.img-navbar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}

@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-background {
+    font-family: 'Quicksand', sans-serif;
+	background: linear-gradient(to right, #F2B872, #FFFFFF);
+	color: #2E2E2E;
+	font-weight: 650;
+}
+
+/* breadcrumb */
+.text-breadcrumb {
+    color: #151515;
+}
+
+.text-breadcrumb:hover {
+    color: #F2B872;
+}
+
+/* banner */
+.banner {
+    height: 80vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/img-website/cat-header.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.banner-produk {
+	height: 60vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/img-website/cat-header-2.jpg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/* highlighted-category */
+.highlighted-category {
+    height: 250px;
+    border: 4px solid #F2B872;
+    border-radius: 10px;
+}
+
+.highlighted-category:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.highlighted-category h4 {
+    color: white;
+    font-family: "Amatic SC", cursive;
+    font-size: 35px;
+    opacity: 50%;
+    text-decoration: none;
+}
+
+/* highlighted-category img */
+.short-haired-cat {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/img-website/short-haired-cat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.long-haired-cat {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/img-website/long-haired-cat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.cross-breed-cat {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../img/img-website/cross-breed-cat.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.text-price {
+    color: orangered;
+}
+
+.image-box {
+    height: 250px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* about us */
+.about-us {
+    background: #F2B872;
+}
+
+.my-footer {
+    background-color: #E0E0E0;
+}
+
+.my-footer a {
+    color: #151515;
+}
+
+.my-footer a:hover {
+    color: #F2B872;
+}
+
+.my-footer-2 {
+    background-color: #BDBDBD;
+}
+
+/* beli kucing */
+.card-3d {
+    perspective: 1000px;
+}
+
+.card-3d {
+    transform-style: preserve-3d;
+    transition: all 0.3s ease;
+}
+
+.card-3d:hover {
+    transform: translateZ(20px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.card-3d .card-body {
+	border: 1px solid #F2B872;
+}
+
+/* detail kucing */
+.related-product {
+    background: #F2B872;
+}
+
+.button-box {
+    background: #F2B872;
+}
+
+/* buat pesanan */
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}  
+
+/* akun */
+.img-account {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.img-navbar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* detail kucing */
+.warna-1 {
+    color: #F2B872;
+}
