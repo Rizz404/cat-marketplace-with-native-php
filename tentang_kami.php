@@ -14,44 +14,22 @@ include 'functions.php';
     <link rel="stylesheet" href="css/style_user.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="shortcut icon" href="img/img-website/chocola-3.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/img-website/maxwellcat-mark.svg" type="image/svg+xml">
 </head>
 <body>
     <?php include 'navbar.php'; ?>
 
     <div class="container-fluid py-4">
         <div class="container">
-            <h1>Tentang Kami</h1>
-            <p>Selamat datang di MaxwellCat, website jual beli kucing terpercaya! Kami adalah toko online yang menyediakan berbagai jenis kucing berkualitas dengan harga terbaik. Kami memiliki tim profesional yang peduli terhadap kesejahteraan kucing dan selalu berkomitmen untuk memberikan pelayanan terbaik kepada pelanggan kami.</p>
-            
-            <h2>Visi</h2>
-            <p>Visi kami adalah menjadi tempat terbaik untuk membeli kucing impian Anda. Kami berusaha untuk menyediakan kucing-kucing dengan keturunan yang berkualitas tinggi serta memberikan informasi yang akurat dan lengkap kepada para calon pemilik kucing.</p>
-            
-            <h2>Misi</h2>
-            <p>Kami memiliki beberapa misi yang kami tekankan dalam setiap aktivitas kami:</p>
-            <ul>
-                <li>Menyediakan kucing-kucing dengan kualitas terbaik dan kesehatan yang baik.</li>
-                <li>Memberikan informasi yang jelas dan akurat mengenai setiap kucing yang kami jual.</li>
-                <li>Menjaga kepuasan pelanggan dengan memberikan layanan pelanggan yang ramah dan responsif.</li>
-                <li>Memastikan kucing-kucing kami diperlakukan dengan baik dan mendapatkan perawatan yang sesuai.</li>
-            </ul>
-            
-            <h2>Tim Kami</h2>
-            <p>Kami memiliki tim yang berdedikasi dan berpengalaman dalam bidang kucing. Tim kami terdiri dari:</p>
-            <ul>
-                <li>
-                    <strong>Tim 1 - Rizqi</strong>
-                    <p>Tim 1 adalah tim yang bertanggung jawab untuk mengurus aspek pemasaran dan promosi di MaxwellCat. Mereka memiliki keahlian dalam membangun strategi pemasaran yang efektif dan menciptakan koneksi yang kuat dengan pelanggan.</p>
-                </li>
-                <li>
-                    <strong>Tim 2 - Rizqiansyah</strong>
-                    <p>Tim 2 adalah tim yang mengurus proses pengadaan dan perawatan kucing di MaxwellCat. Mereka bekerja keras untuk memastikan kucing-kucing kami memiliki kualitas terbaik dan diperlakukan dengan baik sejak awal.</p>
-                </li>
-                <li>
-                    <strong>Tim 3 - Rizqiansyah Ramadhan</strong>
-                    <p>Tim 3 adalah tim yang fokus pada pengembangan teknologi dan desain di MaxwellCat. Mereka bertanggung jawab untuk meningkatkan pengalaman pengguna melalui pengembangan website dan fitur-fitur inovatif.</p>
-                </li>
-            </ul>
+            <h1>Tentang Maxwellcat</h1>
+            <p>Maxwellcat adalah project website marketplace kucing yang dikembangkan oleh Rizqiansyah Ramadhan. Aplikasi ini memakai PHP native, MySQL, Bootstrap, dan Font Awesome.</p>
+            <h2>Jelajahi Katalog</h2>
+            <p>Pengunjung dapat menelusuri ras kucing, membaca detail katalog, melihat harga dan jumlah tersedia, serta menambahkan pilihan ke keranjang melalui akun pembeli.</p>
+            <h2>Pengelolaan Pesanan</h2>
+            <p>Source aplikasi menyediakan halaman pesanan, riwayat transaksi, pengaturan akun, dan panel administrasi. Ketersediaan halaman ini tidak berarti seluruh proses pembayaran atau pengiriman telah diuji.</p>
+            <h2>Pengembangan</h2>
+            <p>Project ini dibuat sebagai latihan pengembangan aplikasi web dengan pemrosesan form, session, query database, dan antarmuka responsif.</p>
+            <a href="https://github.com/Rizz404/cat-marketplace-with-native-php" target="_blank" rel="noopener">Lihat repository Maxwellcat</a>
         </div>
     </div>
 
