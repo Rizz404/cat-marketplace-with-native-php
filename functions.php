@@ -1,11 +1,12 @@
 <?php 
 
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database = "project_kucingpoi";
+$hostname = getenv('DB_HOST') ?: "localhost";
+$username = getenv('DB_USERNAME') ?: "root";
+$password = getenv('DB_PASSWORD') !== false ? getenv('DB_PASSWORD') : "";
+$database = getenv('DB_DATABASE') ?: "project_kucingpoi";
+$port = (int) (getenv('DB_PORT') ?: 3306);
 
-$conn = mysqli_connect($hostname, $username, $password, $database);
+$conn = mysqli_connect($hostname, $username, $password, $database, $port);
 
 // cek koneksi
 if (!$conn) {
