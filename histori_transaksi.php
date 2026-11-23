@@ -21,7 +21,7 @@ $selectTransaksi = mysqli_query($conn, "SELECT h.*, du.*, m.nama_metode_pembayar
     <link rel="stylesheet" href="css/style_user.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="shortcut icon" href="img/img-website/chocola-3.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/img-website/maxwellcat-mark.svg" type="image/svg+xml">
     <style>
         .card-img {
             height: 200px;

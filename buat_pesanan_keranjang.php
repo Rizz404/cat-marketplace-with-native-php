@@ -121,7 +121,7 @@ if (isset($_POST['buat-pesanan'])) {
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/style_user.css">
-    <link rel="shortcut icon" href="img/img-website/chocola-3.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/img-website/maxwellcat-mark.svg" type="image/svg+xml">
     <style>
         .card-img-top {
             max-height: 200px;

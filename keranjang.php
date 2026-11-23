@@ -100,7 +100,7 @@ $jumlahPesanan = mysqli_fetch_array($selectPesanan)['jumlah_pesanan'];
     <link rel="stylesheet" href="css/style_user.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
-    <link rel="shortcut icon" href="img/img-website/chocola-3.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/img-website/maxwellcat-mark.svg" type="image/svg+xml">
     <style>
         .input-jumlah {
             width: 70px;

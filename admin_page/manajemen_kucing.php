@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
 	<link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="../css/style_admin.css">
 	<link rel="stylesheet" href="../fontawesome/css/all.css">
-    <link rel="shortcut icon" href="../img/img-website/chocola-2.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/img-website/maxwellcat-mark.svg" type="image/svg+xml">
 </head>
 <body>
 	<?php include 'navbar.php'; ?>
